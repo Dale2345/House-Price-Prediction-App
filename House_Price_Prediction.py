@@ -15,7 +15,7 @@ st.set_page_config(
 st.title('🏠 House Price Prediction App')
 
 # Load dataset
-df = pd.read_csv('/Users/dale/Desktop/csvdata.csv')  
+df = pd.read_csv('csvdata.csv')  
 
 # Input widgets
 st.sidebar.subheader('Input Features')
